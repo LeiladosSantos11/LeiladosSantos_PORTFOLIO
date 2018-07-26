@@ -8,7 +8,8 @@
   background-color: transparent;
   font-family: Arial, Helvetica, sans-serif;
  }
-  
+
+ 
  #showcase h1{
   font-size: 60px;
   color: orange;
@@ -18,8 +19,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
+
 #showcase h2{
   font-size: 60px;
   color: white;
@@ -41,7 +42,7 @@
 #about {
     background-color:orange;
     justify-content: center;
-    height: 600px;
+    height: 630px;
     max-width: 100%;
   align-content: center;
   color: antiquewhite;
@@ -52,15 +53,21 @@
 
 .about {
   color: red;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 50px;
+  margin-top: 15px;
+font-size: 50px;
 }
 
+h2.about{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
 h2:hover {
   color: red;
 }
 
+.amazonas {
+  margin-bottom: 5px;
+}
 #second{
   background-color:wheat;
   height: 600px;
@@ -86,11 +93,38 @@ font-size: 100px;
   margin-top: 20px;
   color: orangered;
 }
-/*
-.icon {
-  font-size: 100px;
-  position:flex;
+
+
+
+.row #icons { 
+color: black;
+margin-left: 95px;
+display:-webkit-inline-flex;
 }
+
+#icon {
+font-size: 110px;
+margin-bottom: 30px;
+}
+
+.icon-javascript {
+  font-size: 118px;
+  margin-top: 30px;
+}
+.icon-nodejs {
+  font-size: 116px;
+  margin-bottom: 50px;
+}
+#react {
+  margin-bottom: 35px;
+  font-size: 110px;
+  margin-left: 0px;
+}
+#flex {
+  background-color: black;
+  display: inline;
+}
+/*
 .flex-container{
   display: flex;
 }
@@ -336,8 +370,6 @@ ul li {
    font-size: 20px;
    line-height: 40px;
   }
- 
-  
  
   #nav {
   color: white;
